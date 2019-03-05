@@ -1,0 +1,30 @@
+<div class="jumbotron">
+  <div class="row">
+    <img src="assets/img/fstg.png" class="col-md-2" width="30px" height="100px">
+    <h1 class="display-4 text-center col-md-10"> Gestion commande</h1>
+  </div>
+  <hr>
+
+  <!--<button routerLink="/create" class="btn-tab">create</button>
+  <button routerLink="/list" class="btn-tab">list</button>-->
+
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="create-commande" data-toggle="tab" href="#create" role="tab" aria-controls="home" aria-selected="true">create</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="list-commande" data-toggle="tab" href="#list" role="tab" aria-controls="profile" aria-selected="false">list</a>
+    </li>
+
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="create" role="tabpanel" aria-labelledby="home-tab">
+      <app-command-create></app-command-create>
+    </div>
+    <div class="tab-pane fade" id="list" role="tabpanel" aria-labelledby="profile-tab">
+      <app-command-list></app-command-list>
+    </div>
+  </div>
+
+</div>
+
